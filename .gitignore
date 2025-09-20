@@ -71,12 +71,16 @@ Thumbs.db
 **/yarn-debug.log*
 **/yarn-error.log*
 
-# Environment files
+# Environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Google Cloud credentials
+serviceAccountKey.json
+*sanjeevani_backend/serviceAccountKey.json
 
 # Logs
 *.log
